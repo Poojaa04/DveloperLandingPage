@@ -1,0 +1,117 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); </style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero_section{
+    background-image: url(developer1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 72px;
+}
+
+.black_box{
+    margin-top: 20px;
+    background-color: #000;
+    padding: 20px;
+}
+
+.black_box, h2{
+    font-weight: 300;
+    font-size: 72px;
+    color: white;
+    text-align: center;   
+}
+
+.black_box, h2 span {
+    font-weight: 500;
+    font-size: 96px
+}
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+
+}
+
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    margin: 80px;
+    transition: 0.2s ease-in-out;
+    max-width: 1100px;
+}
+
+h3{
+    text-align: center;
+}
+.image_container img{
+    width: 100%;
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.bottom_section{
+    display: flex;
+    color: white;
+}
+.contact{
+    background-color: #515603;
+}
+.about{
+    background-color: #722300;
+}
+.bottom_section h2 {
+    color: white;
+    font-size: 64px;
+}
+.contact
+.about  {
+    min-height: 300px;
+    padding: 32px;
+}
+.contact p,
+.about p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
